@@ -1,6 +1,6 @@
 # Twitter Sentiment Analysis for Apple and Google Products
 
-![Visualizations](attachment:Project_Image.jpg)
+![Visualizations](images\Project_Image.jpg)
 
 # Project Overview
 
@@ -26,8 +26,8 @@ The data cleaning process involved several key steps to enhance clarity and elim
 
 This phase provided valuable insights into the dataset, uncovering issues such as class imbalance in the target variable. These findings guided the subsequent analysis and model development for the project.
 
-![Sentiment Count For Each Product](Sentiment_Count_For_Each_Product.png)
-![Word Cloud For Visualization](Word_Cloud_For_Visualization.png)
+![Sentiment Count For Each Product](images\Sentiment_Count_For_Each_Product.png)
+![Word Cloud For Visualization](images\Word_Cloud_For_Visualization.png)
 
 # Modeling
 
