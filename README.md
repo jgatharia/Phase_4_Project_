@@ -1,7 +1,6 @@
 # Twitter Sentiment Analysis for Apple and Google Products
 
-![Visualizations](images\Project_Image.jpg)
-Project_Image.jpg
+![alt text](images/Project_Image.jpg)
 
 # Project Overview
 
@@ -41,8 +40,8 @@ During the EDA phase, several key insights were uncovered, such as the imbalance
 Key Insights:
 Sentiment distribution for both Apple and Google products was skewed, with neutral sentiments dominating.
 
-![Sentiment Count For Each Product](images\Sentiment_Count_For_Each_Product.png)
-![Word Cloud For Visualization](images\Word_Cloud_For_Visualization.png)
+![alt text](<images/Sentiment Count Per Product.png>)
+![alt text](<images/Word Cloud of balanced data.png>)
 
 # Modeling
 
@@ -65,6 +64,7 @@ The model's performance for negative sentiments, neutral sentiments, and positiv
 # Summary Findings
 
 1. **Apple Dominated Discussions:** A larger share of tweets were directed toward Apple products, reflecting the brand's higher visibility compared to Google.
+
 2. **Neutral Sentiments Were Prevalent:** Neutral sentiments constituted the majority, outpacing both positive and negative sentiments, indicating that most customers expressed balanced or indifferent opinions about these products.
 
 # Conclusion
