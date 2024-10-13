@@ -11,12 +11,12 @@ This project seeks to develop a machine learning model that classifies sentiment
 # Objectives
 
 >- *Develop a Sentiment Classification Model:* Build a machine learning model capable of accurately classifying tweet sentiments (positive, negative, or neutral) for Apple and Google products.
->- *Sentiment Analysis by Product:* Analyze and identify which products from Apple and Google receive the highest and lowest sentiment scores, highlighting potential areas for improvement.
+>- *Sentiment Analysis by Brand:* Analyze and identify which brand: Apple or Google receive the highest and lowest sentiment scores, highlighting potential areas for improvement.
 >- *Sentiment Trends:* Assess overall sentiment trends towards Apple and Google products to inform strategic decisions about NiaTech’s ongoing partnerships with these companies.
 
 # Data Understanding
 
-The dataset used in this analysis was sourced from data.world and consists of 9093 rows and 3 columns:
+The dataset used in this analysis was sourced from [data.world](https://data.world/crowdflower/brands-and-product-emotions) and consists of 9093 rows and 3 columns:
 
 **Tweet:** The text of the tweet.
 **Sentiment:** The sentiment expressed in the tweet (positive, negative, or neutral).
@@ -42,6 +42,8 @@ Sentiment distribution for both Apple and Google products was skewed, with neutr
 
 ![alt text](<images/Sentiment Count Per Product.png>)
 
+![alt text](<images/Sentiment Distribution Per Brand.png>)
+
 ![alt text](<images/Word Cloud of balanced data.png>)
 
 # Modeling
@@ -56,7 +58,7 @@ In this section, various machine learning algorithms were explored to predict se
 Each model was evaluated based on its ability to classify tweet sentiments accurately. Grid Search Cross-Validation was used to fine-tune model hyperparameters, resulting in improved performance.
 
 # Top Performing Model:
-The NLP model, fine-tuned using Grid Search CV, achieved an accuracy of 89% across all sentiment classes (positive, negative, and neutral). This model was selected as the final model due to its robustness and reliability in handling diverse sentiments.
+The NLP model, fine-tuned using Grid Search CV, achieved an accuracy of 88% across all sentiment classes (positive, negative, and neutral). This model was selected as the final model due to its robustness and reliability in handling diverse sentiments.
 
 # Model Evaluation
 
@@ -72,6 +74,9 @@ The model's performance for negative sentiments, neutral sentiments, and positiv
 
 Google and Apple products enjoy widespread usage worldwide. This study successfully achieved its objectives by analyzing the sentiment dynamics surrounding these products on Twitter. The NLP model, optimized using Grid Search CV, performed impressively, attaining an accuracy of 89% across all sentiment categories. Hyperparameter tuning significantly improved the model's performance for negative, neutral, and positive sentiments, resulting in enhanced overall classification results. This tuning process not only bolstered the model’s reliability for sentiment analysis tasks but also showcased its robustness and capacity to handle diverse sentiments, making it a valuable tool for deriving insights from customer feedback.
 
+# Recommendation
+NiaTech should focus on addressing negative sentiments surrounding Apple products and work to convert neutral feedback into positive engagement through customer surveys and improved service. For Google products, the lower positive sentiment suggests a need to enhance features and marketing strategies. NiaTech can also benefit from sentiment-based customer segmentation and targeted campaigns, particularly around major product launches. By leveraging Apple’s higher visibility and tailoring messaging to different sentiment groups, NiaTech can enhance customer satisfaction and drive engagement for both brands.
+
 # Future Work
 
 * **Extend Time Frame for Analysis:** Analyze sentiment over a longer period to identify trends and impacts of product launches and events.
@@ -80,4 +85,4 @@ Google and Apple products enjoy widespread usage worldwide. This study successfu
 * **Integrate Insights with Clients:** Collaborate with clients to weave sentiment insights into marketing strategies, content creation, and social media campaigns.
 
 # For More Information
-See the full analysis in the [Juptyer Notebook](robert.ipynb) or review the[Presentation](Presentation.pdf)
+See the full analysis in the [Juptyer Notebook](Twitter_Sentiment_Analysis_for_Apple_and_Google_Products.ipynb) or review the[Presentation](Presentation.pdf)
