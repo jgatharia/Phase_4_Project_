@@ -41,6 +41,7 @@ Key Insights:
 Sentiment distribution for both Apple and Google products was skewed, with neutral sentiments dominating.
 
 ![alt text](<images/Sentiment Count Per Product.png>)
+
 ![alt text](<images/Word Cloud of balanced data.png>)
 
 # Modeling
